@@ -14,9 +14,9 @@ app.listen(port, () => {
 const TelegramBot = require('node-telegram-bot-api');
 
 // Telegram Bot token
-const token = "6770429572:AAFv5mVMuZgJn0UxfC_Qqa0zOYqMPPvALcg";
+const token = "BOT-TOKEN";
 // Weather API token
-const weatherApiKey = 'ea05f0b6617d998492f421c4335d3bba';
+const weatherApiKey = 'WEATHER-API-KEY';
 
 // Create a bot instance
 const bot = new TelegramBot(token, { polling: true });
